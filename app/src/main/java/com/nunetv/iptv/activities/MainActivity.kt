@@ -94,6 +94,9 @@ class MainActivity : FragmentActivity(), MainBrowseFragment.Callbacks, ChannelDe
     override fun onResume() {
         super.onResume()
         viewModel.refreshFromStorage()
+        if (viewModel.activeProvider.value == null) {
+            startActivity(Intent(this, SettingsActivity::class.java))
+        }
     }
 
     override fun onKeyUp(keyCode: Int, event: KeyEvent?): Boolean {

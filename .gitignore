@@ -1,0 +1,36 @@
+# Gradle files
+.gradle/
+build/
+*/build/
+
+# Local configuration files
+local.properties
+
+# IntelliJ
+*.iml
+.idea/
+
+# Android Studio
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Keystore files
+*.jks
+*.keystore
+
+# Gradle Wrapper
+gradle/wrapper/gradle-wrapper.jar
+
+# Logs
+*.log
+
+# APKs
+*.apk
+*.ap_*
+*.aab
+app/build/outputs/
+
+# Misc
+.DS_Store
+.navigation/

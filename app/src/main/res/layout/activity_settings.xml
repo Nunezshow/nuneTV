@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_title"
+            android:textAppearance="@style/TextAppearance.Leanback.Heading"
+            android:textColor="@color/white"
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/providers_header"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:paddingBottom="8dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/provider_list"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:descendantFocusability="afterDescendants" />
+
+        <TextView
+            android:id="@+id/active_provider_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/secondary"
+            android:textSize="14sp"
+            android:paddingTop="8dp"
+            android:paddingBottom="16dp"
+            android:text="" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/provider_form_header"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:paddingBottom="8dp" />
+
+        <EditText
+            android:id="@+id/input_provider_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/provider_name"
+            android:textColor="@color/white"
+            android:textColorHint="@color/secondary"
+            android:imeOptions="actionNext"
+            android:inputType="textCapWords"
+            android:backgroundTint="@color/primary" />
+
+        <EditText
+            android:id="@+id/input_portal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/portal_url"
+            android:textColor="@color/white"
+            android:textColorHint="@color/secondary"
+            android:imeOptions="actionNext"
+            android:inputType="textUri"
+            android:backgroundTint="@color/primary"
+            android:paddingTop="12dp" />
+
+        <EditText
+            android:id="@+id/input_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/username"
+            android:textColor="@color/white"
+            android:textColorHint="@color/secondary"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:backgroundTint="@color/primary"
+            android:paddingTop="12dp" />
+
+        <EditText
+            android:id="@+id/input_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:textColor="@color/white"
+            android:textColorHint="@color/secondary"
+            android:imeOptions="actionNext"
+            android:inputType="textPassword"
+            android:backgroundTint="@color/primary"
+            android:paddingTop="12dp" />
+
+        <EditText
+            android:id="@+id/input_m3u"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/m3u_url"
+            android:textColor="@color/white"
+            android:textColorHint="@color/secondary"
+            android:imeOptions="actionNext"
+            android:inputType="textUri"
+            android:backgroundTint="@color/primary"
+            android:paddingTop="12dp" />
+
+        <EditText
+            android:id="@+id/input_epg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/epg_url"
+            android:textColor="@color/white"
+            android:textColorHint="@color/secondary"
+            android:imeOptions="actionDone"
+            android:inputType="textUri"
+            android:backgroundTint="@color/primary"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:paddingTop="12dp">
+
+            <Button
+                android:id="@+id/button_save"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/save_provider" />
+
+            <Button
+                android:id="@+id/button_test"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/test_provider"
+                android:layout_marginStart="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:paddingTop="12dp">
+
+            <Button
+                android:id="@+id/button_activate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/switch_provider" />
+
+            <Button
+                android:id="@+id/button_delete"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/delete_provider"
+                android:layout_marginStart="12dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

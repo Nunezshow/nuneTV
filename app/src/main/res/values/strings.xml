@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NuneTV</string>
+    <string name="settings_title">Provider Settings</string>
+    <string name="live_tv">Live TV</string>
+    <string name="movies">Movies</string>
+    <string name="series">Series</string>
+    <string name="favorites">Favorites</string>
+    <string name="loading">Loading…</string>
+    <string name="test_connection">Test Connection</string>
+    <string name="add_provider">Add Provider</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="portal_url">Portal URL</string>
+    <string name="epg_url">EPG URL</string>
+    <string name="m3u_url">M3U URL</string>
+    <string name="save">Save</string>
+    <string name="provider_name">Provider Name</string>
+    <string name="select_provider">Select Provider</string>
+    <string name="no_channels">No channels available</string>
+    <string name="connection_success">Connection successful</string>
+    <string name="connection_failed">Unable to connect</string>
+    <string name="search_hint">Search channels</string>
+    <string name="play_now">Play now</string>
+    <string name="add_to_favorites">Add to favorites</string>
+    <string name="remove_favorite">Remove from favorites</string>
+    <string name="view_guide">View guide</string>
+    <string name="active_provider">Active</string>
+    <string name="save_provider">Save Provider</string>
+    <string name="delete_provider">Delete Provider</string>
+    <string name="switch_provider">Activate Provider</string>
+    <string name="providers_header">Saved Providers</string>
+    <string name="provider_form_header">Provider Credentials</string>
+    <string name="test_provider">Test Connection</string>
+    <string name="status_testing">Testing connection…</string>
+    <string name="status_success">Connection successful</string>
+    <string name="status_failed">Connection failed</string>
+    <string name="no_active_provider">No active provider</string>
+</resources>

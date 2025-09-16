@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.content.Intent
 import androidx.core.content.ContextCompat
 import androidx.leanback.app.SearchSupportFragment
+import androidx.leanback.app.SearchSupportFragment.SearchResultProvider
 import androidx.leanback.widget.ArrayObjectAdapter
 import androidx.leanback.widget.HeaderItem
 import androidx.leanback.widget.ListRow

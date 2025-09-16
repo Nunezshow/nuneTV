@@ -87,7 +87,7 @@ class SettingsActivity : FragmentActivity() {
             when (state) {
                 TestState.Loading -> Toast.makeText(this, R.string.status_testing, Toast.LENGTH_SHORT).show()
                 TestState.Success -> Toast.makeText(this, R.string.status_success, Toast.LENGTH_SHORT).show()
-                is TestState.Error -> Toast.makeText(this, state.message ?: getString(R.string.status_failed), Toast.LENGTH_SHORT).show()
+                is TestState.Error -> Toast.makeText(this, state.message, Toast.LENGTH_SHORT).show()
                 TestState.Idle -> Unit
             }
         }

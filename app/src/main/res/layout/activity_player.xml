@@ -12,7 +12,7 @@
         android:layout_height="match_parent"
         android:focusable="true"
         android:focusableInTouchMode="true"
-        app:controllerShowTimeoutMs="5000" />
+        app:controller_show_timeout_ms="5000" />
 
     <TextView
         android:id="@+id/channel_title"

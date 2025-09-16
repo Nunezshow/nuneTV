@@ -14,7 +14,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/settings_title"
-            android:textAppearance="@style/TextAppearance.Leanback.Heading"
+            android:textAppearance="@style/TextAppearance.NuneTV.Heading"
             android:textColor="@color/white"
             android:paddingBottom="16dp" />
 

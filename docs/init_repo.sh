@@ -2,8 +2,8 @@
 # Initialize GitHub repo for Android TV IPTV app
 
 # Variables (replace with my values before running)
-GITHUB_USER="myusername"
-REPO_NAME="android-tv-iptv-app"
+GITHUB_USER="nunezshow"
+REPO_NAME="nuneTV"
 
 # Create repo on GitHub via API
 curl -u $GITHUB_USER \

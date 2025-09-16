@@ -29,6 +29,7 @@ NuneTV is a Kotlin-based Android TV application built with the Leanback library 
 
 ## Provider Management
 
+- On first launch, the provider settings screen opens automatically so you can configure your first IPTV provider.
 - Press the **Menu** or **Settings** button on the Android TV remote while on the home screen to launch the provider settings screen.
 - Enter the XStream Codes portal URL, username, and password. Optional M3U and EPG URLs can be supplied to augment the catalogue.
 - Use **Test Connection** to validate credentials, then **Save Provider** and **Activate Provider** to refresh the content library.

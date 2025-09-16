@@ -54,7 +54,7 @@ This guide walks you through configuring and launching the NuneTV Android TV IPT
 
 ## Provider Configuration
 
-1. Open the app and press the **Menu** or **Settings** button on the remote to launch the provider settings screen.
+1. Open the app. On first launch, the provider settings screen opens automatically. You can also press the **Menu** or **Settings** button on the remote at any time to return to it.
 2. Enter the XStream Codes portal URL, username, password, and optional M3U/EPG URLs.
 3. Use **Test Connection** to validate the credentials.
 4. Save the provider and activate it to refresh the content catalogue.
